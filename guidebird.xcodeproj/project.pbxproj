@@ -38,21 +38,21 @@
 		3B75121E15BDB88500335D44 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3B75122015BDB88500335D44 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3B75122215BDB88500335D44 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		3B75122615BDB88500335D44 /* guidebird-Info.plist */ = {isa = PBXFileReference; path = "guidebird-Info.plist"; sourceTree = "<group>"; };
+		3B75122615BDB88500335D44 /* guidebird-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "guidebird-Info.plist"; sourceTree = "<group>"; };
 		3B75122815BDB88500335D44 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3B75122A15BDB88500335D44 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3B75122C15BDB88500335D44 /* guidebird-Prefix.pch */ = {isa = PBXFileReference; path = "guidebird-Prefix.pch"; sourceTree = "<group>"; };
-		3B75122D15BDB88500335D44 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		3B75122C15BDB88500335D44 /* guidebird-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "guidebird-Prefix.pch"; sourceTree = "<group>"; };
+		3B75122D15BDB88500335D44 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3B75122E15BDB88500335D44 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		3B75123115BDB88500335D44 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		3B75123415BDB88500335D44 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		3B75123615BDB88500335D44 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		3B75123615BDB88500335D44 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		3B75123715BDB88500335D44 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3B75123E15BDB88500335D44 /* guidebirdTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = guidebirdTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B75123F15BDB88500335D44 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		3B75124715BDB88500335D44 /* guidebirdTests-Info.plist */ = {isa = PBXFileReference; path = "guidebirdTests-Info.plist"; sourceTree = "<group>"; };
+		3B75124715BDB88500335D44 /* guidebirdTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "guidebirdTests-Info.plist"; sourceTree = "<group>"; };
 		3B75124915BDB88500335D44 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		3B75124B15BDB88500335D44 /* guidebirdTests.h */ = {isa = PBXFileReference; path = guidebirdTests.h; sourceTree = "<group>"; };
+		3B75124B15BDB88500335D44 /* guidebirdTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = guidebirdTests.h; sourceTree = "<group>"; };
 		3B75124C15BDB88500335D44 /* guidebirdTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = guidebirdTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 

@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B75121F15BDB88500335D44 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B75121E15BDB88500335D44 /* UIKit.framework */; };
+		3B75122115BDB88500335D44 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B75122015BDB88500335D44 /* Foundation.framework */; };
+		3B75122315BDB88500335D44 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B75122215BDB88500335D44 /* CoreGraphics.framework */; };
+		3B75122915BDB88500335D44 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3B75122715BDB88500335D44 /* InfoPlist.strings */; };
+		3B75122B15BDB88500335D44 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B75122A15BDB88500335D44 /* main.m */; };
+		3B75122F15BDB88500335D44 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B75122E15BDB88500335D44 /* AppDelegate.m */; };
+		3B75123215BDB88500335D44 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B75123015BDB88500335D44 /* MainStoryboard_iPhone.storyboard */; };
+		3B75123515BDB88500335D44 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B75123315BDB88500335D44 /* MainStoryboard_iPad.storyboard */; };
+		3B75123815BDB88500335D44 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B75123715BDB88500335D44 /* ViewController.m */; };
+		3B75124015BDB88500335D44 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B75123F15BDB88500335D44 /* SenTestingKit.framework */; };
+		3B75124115BDB88500335D44 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B75121E15BDB88500335D44 /* UIKit.framework */; };
+		3B75124215BDB88500335D44 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B75122015BDB88500335D44 /* Foundation.framework */; };
+		3B75124A15BDB88500335D44 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3B75124815BDB88500335D44 /* InfoPlist.strings */; };
+		3B75124D15BDB88500335D44 /* guidebirdTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B75124C15BDB88500335D44 /* guidebirdTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B75124315BDB88500335D44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B75121115BDB88500335D44 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B75121915BDB88500335D44;
+			remoteInfo = guidebird;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3B75121A15BDB88500335D44 /* guidebird.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = guidebird.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B75121E15BDB88500335D44 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3B75122015BDB88500335D44 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3B75122215BDB88500335D44 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3B75122615BDB88500335D44 /* guidebird-Info.plist */ = {isa = PBXFileReference; path = "guidebird-Info.plist"; sourceTree = "<group>"; };
+		3B75122815BDB88500335D44 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3B75122A15BDB88500335D44 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3B75122C15BDB88500335D44 /* guidebird-Prefix.pch */ = {isa = PBXFileReference; path = "guidebird-Prefix.pch"; sourceTree = "<group>"; };
+		3B75122D15BDB88500335D44 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		3B75122E15BDB88500335D44 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3B75123115BDB88500335D44 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		3B75123415BDB88500335D44 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		3B75123615BDB88500335D44 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		3B75123715BDB88500335D44 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3B75123E15BDB88500335D44 /* guidebirdTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = guidebirdTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B75123F15BDB88500335D44 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		3B75124715BDB88500335D44 /* guidebirdTests-Info.plist */ = {isa = PBXFileReference; path = "guidebirdTests-Info.plist"; sourceTree = "<group>"; };
+		3B75124915BDB88500335D44 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3B75124B15BDB88500335D44 /* guidebirdTests.h */ = {isa = PBXFileReference; path = guidebirdTests.h; sourceTree = "<group>"; };
+		3B75124C15BDB88500335D44 /* guidebirdTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = guidebirdTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B75121715BDB88500335D44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B75121F15BDB88500335D44 /* UIKit.framework in Frameworks */,
+				3B75122115BDB88500335D44 /* Foundation.framework in Frameworks */,
+				3B75122315BDB88500335D44 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B75123A15BDB88500335D44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B75124015BDB88500335D44 /* SenTestingKit.framework in Frameworks */,
+				3B75124115BDB88500335D44 /* UIKit.framework in Frameworks */,
+				3B75124215BDB88500335D44 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B75120F15BDB88500335D44 = {
+			isa = PBXGroup;
+			children = (
+				3B75122415BDB88500335D44 /* guidebird */,
+				3B75124515BDB88500335D44 /* guidebirdTests */,
+				3B75121D15BDB88500335D44 /* Frameworks */,
+				3B75121B15BDB88500335D44 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B75121B15BDB88500335D44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B75121A15BDB88500335D44 /* guidebird.app */,
+				3B75123E15BDB88500335D44 /* guidebirdTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B75121D15BDB88500335D44 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B75121E15BDB88500335D44 /* UIKit.framework */,
+				3B75122015BDB88500335D44 /* Foundation.framework */,
+				3B75122215BDB88500335D44 /* CoreGraphics.framework */,
+				3B75123F15BDB88500335D44 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3B75122415BDB88500335D44 /* guidebird */ = {
+			isa = PBXGroup;
+			children = (
+				3B75122D15BDB88500335D44 /* AppDelegate.h */,
+				3B75122E15BDB88500335D44 /* AppDelegate.m */,
+				3B75123015BDB88500335D44 /* MainStoryboard_iPhone.storyboard */,
+				3B75123315BDB88500335D44 /* MainStoryboard_iPad.storyboard */,
+				3B75123615BDB88500335D44 /* ViewController.h */,
+				3B75123715BDB88500335D44 /* ViewController.m */,
+				3B75122515BDB88500335D44 /* Supporting Files */,
+			);
+			path = guidebird;
+			sourceTree = "<group>";
+		};
+		3B75122515BDB88500335D44 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B75122615BDB88500335D44 /* guidebird-Info.plist */,
+				3B75122715BDB88500335D44 /* InfoPlist.strings */,
+				3B75122A15BDB88500335D44 /* main.m */,
+				3B75122C15BDB88500335D44 /* guidebird-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3B75124515BDB88500335D44 /* guidebirdTests */ = {
+			isa = PBXGroup;
+			children = (
+				3B75124B15BDB88500335D44 /* guidebirdTests.h */,
+				3B75124C15BDB88500335D44 /* guidebirdTests.m */,
+				3B75124615BDB88500335D44 /* Supporting Files */,
+			);
+			path = guidebirdTests;
+			sourceTree = "<group>";
+		};
+		3B75124615BDB88500335D44 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B75124715BDB88500335D44 /* guidebirdTests-Info.plist */,
+				3B75124815BDB88500335D44 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B75121915BDB88500335D44 /* guidebird */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B75125015BDB88500335D44 /* Build configuration list for PBXNativeTarget "guidebird" */;
+			buildPhases = (
+				3B75121615BDB88500335D44 /* Sources */,
+				3B75121715BDB88500335D44 /* Frameworks */,
+				3B75121815BDB88500335D44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = guidebird;
+			productName = guidebird;
+			productReference = 3B75121A15BDB88500335D44 /* guidebird.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3B75123D15BDB88500335D44 /* guidebirdTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B75125315BDB88500335D44 /* Build configuration list for PBXNativeTarget "guidebirdTests" */;
+			buildPhases = (
+				3B75123915BDB88500335D44 /* Sources */,
+				3B75123A15BDB88500335D44 /* Frameworks */,
+				3B75123B15BDB88500335D44 /* Resources */,
+				3B75123C15BDB88500335D44 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B75124415BDB88500335D44 /* PBXTargetDependency */,
+			);
+			name = guidebirdTests;
+			productName = guidebirdTests;
+			productReference = 3B75123E15BDB88500335D44 /* guidebirdTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B75121115BDB88500335D44 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 3B75121415BDB88500335D44 /* Build configuration list for PBXProject "guidebird" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3B75120F15BDB88500335D44;
+			productRefGroup = 3B75121B15BDB88500335D44 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B75121915BDB88500335D44 /* guidebird */,
+				3B75123D15BDB88500335D44 /* guidebirdTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B75121815BDB88500335D44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B75122915BDB88500335D44 /* InfoPlist.strings in Resources */,
+				3B75123215BDB88500335D44 /* MainStoryboard_iPhone.storyboard in Resources */,
+				3B75123515BDB88500335D44 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B75123B15BDB88500335D44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B75124A15BDB88500335D44 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3B75123C15BDB88500335D44 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B75121615BDB88500335D44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B75122B15BDB88500335D44 /* main.m in Sources */,
+				3B75122F15BDB88500335D44 /* AppDelegate.m in Sources */,
+				3B75123815BDB88500335D44 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B75123915BDB88500335D44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B75124D15BDB88500335D44 /* guidebirdTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B75124415BDB88500335D44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B75121915BDB88500335D44 /* guidebird */;
+			targetProxy = 3B75124315BDB88500335D44 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3B75122715BDB88500335D44 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B75122815BDB88500335D44 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3B75123015BDB88500335D44 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B75123115BDB88500335D44 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		3B75123315BDB88500335D44 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B75123415BDB88500335D44 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		3B75124815BDB88500335D44 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B75124915BDB88500335D44 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B75124E15BDB88500335D44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3B75124F15BDB88500335D44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B75125115BDB88500335D44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "guidebird/guidebird-Prefix.pch";
+				INFOPLIST_FILE = "guidebird/guidebird-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3B75125215BDB88500335D44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "guidebird/guidebird-Prefix.pch";
+				INFOPLIST_FILE = "guidebird/guidebird-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3B75125415BDB88500335D44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/guidebird.app/guidebird";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "guidebird/guidebird-Prefix.pch";
+				INFOPLIST_FILE = "guidebirdTests/guidebirdTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		3B75125515BDB88500335D44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/guidebird.app/guidebird";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "guidebird/guidebird-Prefix.pch";
+				INFOPLIST_FILE = "guidebirdTests/guidebirdTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B75121415BDB88500335D44 /* Build configuration list for PBXProject "guidebird" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B75124E15BDB88500335D44 /* Debug */,
+				3B75124F15BDB88500335D44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B75125015BDB88500335D44 /* Build configuration list for PBXNativeTarget "guidebird" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B75125115BDB88500335D44 /* Debug */,
+				3B75125215BDB88500335D44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3B75125315BDB88500335D44 /* Build configuration list for PBXNativeTarget "guidebirdTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B75125415BDB88500335D44 /* Debug */,
+				3B75125515BDB88500335D44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B75121115BDB88500335D44 /* Project object */;
+}

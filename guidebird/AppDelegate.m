@@ -6,8 +6,12 @@
 //  Copyright (c) 2012年 __MyCompanyName__. All rights reserved.
 // Peter Huang
 // peter Huang 2
+// Peter Huang 3
 // purple 1
 // purple 2
+// Peter Huang 4
+// Peter Huang 5
+// Peter Huang 6
 
 #import "AppDelegate.h"
 
